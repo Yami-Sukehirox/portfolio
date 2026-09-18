@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.container{
+    font-size:  20px;
+    width: 50em;
+    height: 50em;
+    position: relative;
+}
+
+.Sun{
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    width: 10em;
+    height: 10em;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 3em white;
+}
+
+.Earth .Moon{
+    position: absolute;
+    border-style: solid;
+    border-color: white
+    transparent transparent
+    transparent;
+}
+
+.earth::before{
+    top: 2.8em;
+    right: 2.8em;
+    width: 3em;
+    height: 3em;
+    background-color: aqua;
+}
+
+.moon::before {
+    top: 0.8em;
+    right: 0.2em;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: silver;
+}
+
+.venus::before{
+    top: 2.2;
+    right: 2.2;
+    width: 3em;
+    height: 3em;
+    background-color: red;
+}
+
+@keyframes orbit {
+    to {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360);
+    }
+}

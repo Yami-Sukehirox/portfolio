@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="350"
+     viewBox="0 0 1200 350">
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="350" fill="#070b18"/>
+
+  <!-- SKY -->
+  <rect width="1200" height="230" fill="#0d1630"/>
+
+  <!-- MOON -->
+  <rect x="1010" y="45" width="40" height="40" fill="#d9e6ff"/>
+  <rect x="1050" y="55" width="20" height="20" fill="#d9e6ff"/>
+
+  <!-- STARS -->
+  <g fill="#8ba7ff">
+    <rect x="80" y="45" width="5" height="5"/>
+    <rect x="170" y="80" width="4" height="4"/>
+    <rect x="290" y="40" width="5" height="5"/>
+    <rect x="760" y="55" width="5" height="5"/>
+    <rect x="850" y="90" width="4" height="4"/>
+    <rect x="930" y="40" width="5" height="5"/>
+    <rect x="1120" y="100" width="4" height="4"/>
+  </g>
+
+  <!-- ============================= -->
+  <!-- TOKYO BUILDINGS -->
+  <!-- ============================= -->
+
+  <g fill="#080d1f">
+
+    <rect x="0" y="145" width="120" height="105"/>
+    <rect x="110" y="120" width="100" height="130"/>
+    <rect x="205" y="155" width="120" height="95"/>
+    <rect x="320" y="110" width="110" height="140"/>
+
+    <rect x="770" y="140" width="100" height="110"/>
+    <rect x="860" y="100" width="120" height="150"/>
+    <rect x="970" y="135" width="100" height="115"/>
+    <rect x="1060" y="115" width="140" height="135"/>
+
+  </g>
+
+  <!-- BUILDING WINDOWS -->
+
+  <g fill="#314578">
+
+    <rect x="25" y="165" width="10" height="15"/>
+    <rect x="55" y="165" width="10" height="15"/>
+    <rect x="85" y="165" width="10" height="15"/>
+
+    <rect x="135" y="140" width="10" height="15"/>
+    <rect x="165" y="140" width="10" height="15"/>
+    <rect x="135" y="175" width="10" height="15"/>
+    <rect x="165" y="175" width="10" height="15"/>
+
+    <rect x="230" y="175" width="10" height="15"/>
+    <rect x="260" y="175" width="10" height="15"/>
+
+    <rect x="345" y="130" width="10" height="15"/>
+    <rect x="375" y="130" width="10" height="15"/>
+    <rect x="405" y="130" width="10" height="15"/>
+
+    <rect x="795" y="160" width="10" height="15"/>
+    <rect x="825" y="160" width="10" height="15"/>
+
+    <rect x="890" y="120" width="10" height="15"/>
+    <rect x="920" y="120" width="10" height="15"/>
+    <rect x="950" y="120" width="10" height="15"/>
+
+    <rect x="1000" y="155" width="10" height="15"/>
+    <rect x="1030" y="155" width="10" height="15"/>
+
+    <rect x="1090" y="140" width="10" height="15"/>
+    <rect x="1120" y="140" width="10" height="15"/>
+    <rect x="1150" y="140" width="10" height="15"/>
+
+  </g>
+
+  <!-- ============================= -->
+  <!-- TOKYO TOWER -->
+  <!-- ============================= -->
+
+  <polygon points="560,245 600,90 640,245"
+           fill="#121a32"
+           stroke="#ff416c"
+           stroke-width="5"/>
+
+  <rect x="595" y="100" width="10" height="145"
+        fill="#ff416c"/>
+
+  <rect x="580" y="150"
+        width="40"
+        height="7"
+        fill="#ff416c"/>
+
+  <rect x="572" y="195"
+        width="56"
+        height="7"
+        fill="#ff416c"/>
+
+  <rect x="598" y="70"
+        width="5"
+        height="25"
+        fill="#ff416c"/>
+
+  <!-- ============================= -->
+  <!-- MAIN TITLE -->
+  <!-- ============================= -->
+
+  <rect x="345" y="50"
+        width="510"
+        height="95"
+        fill="#070b18"
+        stroke="#3b65d4"
+        stroke-width="4"/>
+
+  <!-- Pixel corners -->
+  <rect x="345" y="50" width="15" height="15" fill="#ff3fc7"/>
+  <rect x="840" y="50" width="15" height="15" fill="#35d9ff"/>
+  <rect x="345" y="130" width="15" height="15" fill="#35d9ff"/>
+  <rect x="840" y="130" width="15" height="15" fill="#ff3fc7"/>
+
+  <!-- NAME -->
+
+  <text x="600"
+        y="95"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="40"
+        font-weight="bold"
+        letter-spacing="4"
+        fill="#ffffff">
+    LIAN CRUSPERO
+  </text>
+
+  <!-- STATUS -->
+
+  <text x="600"
+        y="125"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="17"
+        letter-spacing="3"
+        fill="#35d9ff">
+    &gt; BSIT STUDENT_
+  </text>
+
+  <!-- ============================= -->
+  <!-- NEON SIGNS -->
+  <!-- ============================= -->
+
+  <rect x="40" y="210"
+        width="100"
+        height="35"
+        fill="#090d20"
+        stroke="#ff3fc7"
+        stroke-width="3"/>
+
+  <text x="90"
+        y="234"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="15"
+        fill="#ff3fc7">
+    TOKYO
+  </text>
+
+  <rect x="1060" y="205"
+        width="100"
+        height="40"
+        fill="#090d20"
+        stroke="#35d9ff"
+        stroke-width="3"/>
+
+  <text x="1110"
+        y="230"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="14"
+        fill="#35d9ff">
+    ARCADE
+  </text>
+
+  <!-- ============================= -->
+  <!-- STREET -->
+  <!-- ============================= -->
+
+  <rect x="0" y="250"
+        width="1200"
+        height="100"
+        fill="#080b16"/>
+
+  <!-- Road -->
+
+  <rect x="0" y="275"
+        width="1200"
+        height="75"
+        fill="#111629"/>
+
+  <!-- Road lines -->
+
+  <g fill="#38436c">
+    <rect x="0" y="310" width="100" height="5"/>
+    <rect x="180" y="310" width="100" height="5"/>
+    <rect x="360" y="310" width="100" height="5"/>
+    <rect x="540" y="310" width="100" height="5"/>
+    <rect x="720" y="310" width="100" height="5"/>
+    <rect x="900" y="310" width="100" height="5"/>
+    <rect x="1080" y="310" width="100" height="5"/>
+  </g>
+
+  <!-- ============================= -->
+  <!-- MOVING PIXEL CAR 🚗 -->
+  <!-- ============================= -->
+
+  <g>
+
+    <!-- CAR BODY -->
+
+    <rect x="0" y="285"
+          width="80"
+          height="25"
+          fill="#ff3fc7"/>
+
+    <rect x="15" y="275"
+          width="45"
+          height="15"
+          fill="#ff3fc7"/>
+
+    <!-- WINDOWS -->
+
+    <rect x="25" y="278"
+          width="12"
+          height="10"
+          fill="#0b1730"/>
+
+    <rect x="42" y="278"
+          width="12"
+          height="10"
+          fill="#0b1730"/>
+
+    <!-- WHEELS -->
+
+    <rect x="15" y="305"
+          width="15"
+          height="15"
+          fill="#05070d"/>
+
+    <rect x="60" y="305"
+          width="15"
+          height="15"
+          fill="#05070d"/>
+
+    <!-- ANIMATION -->
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-100 0"
+      to="1300 0"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- ============================= -->
+  <!-- MOVING NEON LIGHTS -->
+  <!-- ============================= -->
+
+  <rect x="0" y="335"
+        width="80"
+        height="4"
+        fill="#35d9ff">
+
+    <animate
+      attributeName="x"
+      from="-100"
+      to="1200"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <rect x="500" y="335"
+        width="60"
+        height="4"
+        fill="#ff3fc7">
+
+    <animate
+      attributeName="x"
+      from="-200"
+      to="1200"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+</svg>

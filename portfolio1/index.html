@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lian — BSIT student portfolio. Skills in C, C++, HTML, CSS, Arduino, Adobe and Canva."
+    />
+    <meta property="og:title" content="Lian — Portfolio" />
+    <meta
+      property="og:description"
+      content="BSIT student portfolio showcasing skills, projects and education."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23000000'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Arial, sans-serif' font-weight='800' fill='%23b74b4b' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" 
+    type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Lian — Portfolio</title>
+
+    <style></style>
+  </head>
+  <body>
+    <div class="intro-screen">
+  <h1>
+    <span class="bracket">&lt;</span>Hello World<span class="bracket">&gt;</span><span class="cursor">|</span>
+  </h1>
+
+  <p class="intro-subtitle">
+    Initializing portfolio...
+  </p>
+</div>
+    <header>
+      <a href="#" class="logo">&lt;Lian<span>/</span>&gt;</a>
+
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
+    <section class="home" id="home">
+      <div class="home-jpg">
+        <img src="Angelo.jpg" alt="Lian" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Lian</span></h1>
+        <h3 class="typing-text">
+          <span id="typed"></span><span class="cursor">|</span>
+        </h3>
+        <p>
+          BSIT student who enjoys exploring technology, learning through
+          hands-on projects, and experimenting with code. I'm always curious
+          about how things work and enjoy turning what I learn into something
+          useful.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </section>
+
+    <section class="skills reveal" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Programming Languages</h3>
+          <div class="skills-list">
+            <span><i class="devicon-c-plain colored"></i> C</span>
+            <span><i class="devicon-cplusplus-plain colored"></i> C++</span>
+            <span><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>FRONT-END</h3>
+          <div class="skills-list">
+            <span><i class="devicon-html5-plain colored"></i> HTML</span>
+            <span><i class="devicon-css3-plain colored"></i> CSS</span>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-toolbox"></i>
+          <h3>Other Tools</h3>
+          <div class="skills-list">
+            <span><i class="devicon-arduino-plain colored"></i> Arduino</span>
+            <span><i class="fa-brands fa-adobe" style="color: #ff0000"></i>Adobe</span>
+            <span><i class="devicon-git-plain colored"></i> Git</span>
+            <span><i class="devicon-vscode-plain-wordmark colored"></i> VSCode</span>
+            <span><i class="devicon-github-original-wordmark colored"></i> Github</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects reveal" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="project-box">
+          <div class="project-thumb">
+            <img src="motobot.jpg" alt="Motobot Project" />
+          </div>
+          <div class="project-info">
+            <h3>MotoBot</h3>
+            <p>
+              A hands-on Arduino robotics project involving motors, electronics,
+              sensors, and hardware integration.
+            </p>
+            <div class="project-tags"><span>C++</span><span>Arduino</span></div>
+            <a
+              href="https://github.com/Yami-Sukehirox/Motobot.git"
+              class="project-link"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <div class="project-thumb">
+            <img src="smartcane.jpg" alt:="Smart-Cane" />
+            <i class="fa-solid fa-person-cane"></i>
+          </div>
+          <div class="project-info">
+            <h3>SmartCane</h3>
+            <p>
+              A prototype assistive device designed to detect obstacles, water,
+              and potential fire hazards using sensors and audible alerts.
+            </p>
+            <div class="project-tags">
+              <span>C++</span><span>Arduino</span><span>Sensors</span>
+            </div>
+            <a href="https://github.com/Yami-Sukehirox/smartcane.git"
+            class="project-link"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-right"></i>
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <div class="project-thumb">
+            <i class="fa-solid fa-calculator"></i>
+          </div>
+          <div class="project-info">
+            <h3>Calculator</h3>
+            <p>
+              A calculator program written in C, performing basic arithmetic
+              operations through a simple console interface.
+            </p>
+            <div class="project-tags"><span>C</span></div>
+            <a href="https://github.com/Yami-Sukehirox/C-calculator.git"
+              >View Project <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education reveal" id="education">
+      <h2 class="heading">My <span>Education</span></h2>
+      <div class="education-container">
+        <div class="education-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <h3>Elementary Graduate</h3>
+            <p>Completed elementary education.</p>
+            <span class="honor">With Honor</span>
+          </div>
+        </div>
+
+        <div class="education-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <h3>Junior High School Graduate</h3>
+            <p>Completed junior high school education.</p>
+            <span class="honor">With High Honor</span>
+          </div>
+        </div>
+
+        <div class="education-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <h3>Senior High School Graduate</h3>
+            <p>Completed senior high school education.</p>
+            <span class="honor">With Honors</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+      <h2 class="heading">Get In <span>Touch</span></h2>
+      <div class="contact-container">
+        <form class="contact-form" action="https://formspree.io/forms" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="you@example.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+          <p class="form-note">
+            This form is a front-end demo only — connect it to an email service
+            (e.g. Formspree) to receive messages.
+          </p>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="back-top"><i class="fa-solid fa-arrow-up"></i></div>
+
+    <script>
+      const menuIcon = document.getElementById("menu-icon");
+      const nav = document.querySelector("nav");
+      const navLinks = document.querySelectorAll("nav a");
+      const sections = document.querySelectorAll("section[id]");
+      const backTop = document.getElementById("back-top");
+
+      menuIcon.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          const targetId = link.getAttribute("href");
+
+          if (targetId && targetId.startsWith("#") && targetId.length > 1) {
+            e.preventDefault();
+            const targetEl = document.querySelector(targetId);
+            if (targetEl) {
+              targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          }
+
+          nav.classList.remove("active");
+        });
+      });
+
+      // Typing effect
+      const roles = [
+        "BSIT STUDENT",
+        "C / C++ Programmer",
+        "Arduino Enthusiast",
+      ];
+      const typedEl = document.getElementById("typed");
+      let roleIndex = 0,
+        charIndex = 0,
+        deleting = false;
+
+      function type() {
+        const current = roles[roleIndex];
+        if (!deleting) {
+          charIndex++;
+          typedEl.textContent = current.slice(0, charIndex);
+          if (charIndex === current.length) {
+            deleting = true;
+            setTimeout(type, 1400);
+            return;
+          }
+        } else {
+          charIndex--;
+          typedEl.textContent = current.slice(0, charIndex);
+          if (charIndex === 0) {
+            deleting = false;
+            roleIndex = (roleIndex + 1) % roles.length;
+          }
+        }
+        setTimeout(type, deleting ? 40 : 70);
+      }
+      type();
+
+      // Scroll-reveal
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            }
+          });
+        },
+        { threshold: 0.15 },
+      );
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => revealObserver.observe(el));
+
+      // Active nav highlight on scroll
+      const navObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.getAttribute("id");
+              navLinks.forEach((l) => {
+                l.classList.toggle(
+                  "active",
+                  l.getAttribute("href") === "#" + id,
+                );
+              });
+            }
+          });
+        },
+        { threshold: 0.5 },
+      );
+
+      sections.forEach((sec) => navObserver.observe(sec));
+
+      // Back-to-top button
+      window.addEventListener("scroll", () => {
+        backTop.classList.toggle("show", window.scrollY > 500);
+      });
+
+      backTop.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
